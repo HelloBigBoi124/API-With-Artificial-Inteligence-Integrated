@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Friends List</title>
+            <link rel="stylesheet" href="styles.css">
+        </head>
+        <body>
+            <div class="container">
+                <h2>Friends List</h2>
+                <div class="button-container1">
+                    <input type="button" class="show-button button" id="show-button" value="Show List">
+                    <input type="button" class="hide-button button" id="hide-button" value="Hide List">
+                    <div class="button-container2" id="button-container2">
+                        <div>
+                            <input type="button" class="insert-button button" id="insert-button" value="Insert into List">
+                            <div id="insert-container" class="insert-container">
+                                <form>
+                                    <label for="name">Name:</label>
+                                    <input type="text" id="name-id" placeholder="Friend Name:">
+                                    <label for="age">Age:</label>
+                                    <input type="number" max="115" id="age-id" placeholder="Friend Age:">
+                                    <label for="college">College:</label>
+                                    <input type="text" id="college-id" placeholder="Friend College:">
+                                    <label for="course">Course:</label>
+                                    <input type="text" id="course-id" placeholder="Friend Course:">
+                                    <input type="button" id="send-button" class="send-button button" value="Insert Friend Into List">
+                                </form>
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" class="delete-button button" id="delete-button" value="Delete from List">
+                            <div id="delete-container" class="delete-container">
+                                <label>Insert ID to Delete</label>
+                                <input type="number" id="ta-id" placeholder="Insert Friend ID" max="30">
+                                <input type="button" id="delete-friend-button" class="delete-friend-button" value="Delete Friend">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-list" id="box-list">
+                    
+                </div>
+            </div>
+            <script src="listagem.js"></script>
+        </body>
+        
+    </html>

@@ -1,0 +1,9 @@
+[
+    {
+        "nome": "string",
+        "idade": "integer",
+        "faculdade": "string",
+        "curso": "string",
+        "programador": "boolean"
+    }
+]

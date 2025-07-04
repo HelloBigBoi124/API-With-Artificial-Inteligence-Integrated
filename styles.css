@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button-container2 {
+    display: none;
+    flex-direction: row;
+}
+
+.button {
+    margin: 5px;
+}
+
+.insert-container {
+    display: none;
+    flex-direction: column;
+}
+
+.delete-container {
+    display: none;
+    flex-direction: column;
+}
