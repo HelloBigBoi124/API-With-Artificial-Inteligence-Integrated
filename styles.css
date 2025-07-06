@@ -1,7 +1,14 @@
+html {
+    height: 100%;
+}
+
 body {
     display: flex;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: linear-gradient(rgb(29, 29, 29), rgb(65, 65, 65));
+    color: white;
 }
 
 .container {
@@ -9,13 +16,28 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    padding: 10px 20rem;
+    margin: 20px;
+    border: rgb(12, 12, 12) solid;
+    border-width: 0 0 10px 0;
+    border-radius: 2%;
 }
 
-.button-container {
+.box-list {
+    background: linear-gradient(white, rgb(240, 240, 240));
+    padding: 10px 40px;
+    color: black;
+    font-family: cursive;
+}
+
+.button-container1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    margin: 10px;
+    border: white 1px solid;
 }
 
 .button-container2 {
@@ -25,6 +47,19 @@ body {
 
 .button {
     margin: 5px;
+    border-radius: 5%;
+    border: 0;
+    transition: transform ease-in-out 0.3s;
+    transform: color background-color ease-in-out 0.1s;
+}
+
+.button:active {
+    color: white;
+    background-color: #9b9b9b;
+}
+
+.button:hover {
+    transform: translateY(-5px);
 }
 
 .insert-container {
@@ -34,5 +69,10 @@ body {
 
 .delete-container {
     display: none;
+    flex-direction: column;
+}
+
+.change-container1, .change-container2 {
+    display:none;
     flex-direction: column;
 }

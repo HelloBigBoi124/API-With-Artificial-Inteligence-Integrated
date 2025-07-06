@@ -15,8 +15,7 @@
                     <div class="button-container2" id="button-container2">
                         <div>
                             <input type="button" class="insert-button button" id="insert-button" value="Insert into List">
-                            <div id="insert-container" class="insert-container">
-                                <form>
+                                <form id="insert-container" class="insert-container">
                                     <label for="name">Name:</label>
                                     <input type="text" id="name-id" placeholder="Friend Name:">
                                     <label for="age">Age:</label>
@@ -27,15 +26,35 @@
                                     <input type="text" id="course-id" placeholder="Friend Course:">
                                     <input type="button" id="send-button" class="send-button button" value="Insert Friend Into List">
                                 </form>
-                            </div>
                         </div>
                         <div>
                             <input type="button" class="delete-button button" id="delete-button" value="Delete from List">
-                            <div id="delete-container" class="delete-container">
-                                <label>Insert ID to Delete</label>
-                                <input type="number" id="ta-id" placeholder="Insert Friend ID" max="30">
+                            <form id="delete-container" class="delete-container">
+                                <label for="id">Insert ID to Delete</label>
+                                <input type="number" id="friend-id" placeholder="Insert Friend ID to DELETE" min="1" max="30">
                                 <input type="button" id="delete-friend-button" class="delete-friend-button" value="Delete Friend">
-                            </div>
+                            </form>
+                        </div>
+                            
+                        <div>
+                            <input type="button" class="change-button button" id="change-button" value="Change Friend Info">
+                            <form id="change-container1" class="change-container1">
+                                <label>Insert ID to Change</label>
+                                <input type="number" id="friend-change-id" placeholder="Insert Friend ID to Change Info" min="1" max="30">
+                                <input type="button" id="change-friend-button" class="change-friend-button" value="Change Info">
+                            </form>
+                            <form id="change-container2" class="change-container2 container">
+                                <label>Change Info's and click on confirm changes to SAVE.</label>
+                                <label for="name">Name:</label>
+                                <input type="text" id="name-change-id" placeholder="Friend Name:">
+                                <label for="age">Age:</label>
+                                <input type="number" max="115" id="age-change-id" placeholder="Friend Age:">
+                                <label for="college">College:</label>
+                                <input type="text" id="college-change-id" placeholder="Friend College:">
+                                <label for="course">Course:</label>
+                                <input type="text" id="course-change-id" placeholder="Friend Course:">
+                                <input type="button" id="save-button" class="save-button button" value="Save">
+                            </form>
                         </div>
                     </div>
                 </div>

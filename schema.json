@@ -1,9 +1,8 @@
 [
     {
-        "nome": "string",
-        "idade": "integer",
-        "faculdade": "string",
-        "curso": "string",
-        "programador": "boolean"
+        "name": "string",
+        "age": "integer",
+        "college": "string",
+        "course": "string"
     }
 ]

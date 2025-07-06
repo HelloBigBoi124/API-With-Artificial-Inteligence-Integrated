@@ -1,37 +1,37 @@
 [
     {
         "id": 0,
-        "nome": "Jenefer Camile Dias da Silva",
-        "idade": 20,
-        "faculdade": "UNIALFA Unidade Bueno Mutirão",
-        "curso": "Publicidade e Propaganda"
+        "name": "Friend 1",
+        "age": 20,
+        "college": "UNIALFA Universidade Bueno Mutirão",
+        "course": "Publicidade e Propaganda"
     },
     {
         "id": 1,
-        "nome": "Enzo Henrique",
-        "idade": 18,
-        "faculdade": "UFG - Universidade Federal de Goiás",
-        "curso": "Engenharia da Computação"
+        "name": "Friend 2",
+        "age": 18,
+        "college": "UFG - Universidade Federal de Goiás",
+        "course": "Engenharia da Computação"
     },
     {
         "id": 2,
-        "nome": "João Bernardes",
-        "idade": 17,
-        "faculdade": "UFJ - Universidade Federal de Jataí",
-        "curso": "Direito"
+        "name": "Friend 3",
+        "age": 17,
+        "college": "UFJ - Universidade Federal de Jataí",
+        "course": "Direito"
     },
     {
         "id": 3,
-        "nome": "Gustavo Engers de Abreu",
-        "idade": 19,
-        "faculdade": "UFG - Universidade Federal de Goiás",
-        "curso": "Ciências Contábeis"
+        "name": "Friend 4",
+        "age": 19,
+        "college": "UFG - Universidade Federal de Goiás",
+        "course": "Ciências Contábeis"
     },
     {
         "id": 4,
-        "nome": "Murilo ...",
-        "idade": 19,
-        "faculdade": "PUC Goiás - Pontifícia Universidade Católica de Goiás",
-        "curso": "Inteligência Artificial"
+        "name": "Friend 5",
+        "age": 19,
+        "college": "PUC Goiás - Pontifícia Universidade Católica de Goiás",
+        "course": "Inteligência Artificial"
     }
 ]
